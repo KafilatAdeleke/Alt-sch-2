@@ -1,0 +1,35 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(100, 229, 229),
+    white,
+    rgb(51, 102, 102)
+  );
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 50px;
+}
+
+h2 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+a {
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+.container {
+  margin-top: 0;
+}
