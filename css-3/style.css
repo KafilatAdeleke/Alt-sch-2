@@ -109,6 +109,67 @@ h1 {
   font-size: 20px;
 }
 
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .personalize {
+    width: 400px !important;
+    margin-left: 0 !important;
+  }
+  .buttons {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    display: flex;
+  }
+
+  .primary {
+    margin-right: 100px !important;
+  }
+  .illustration {
+    display: none;
+  }
+  .divider {
+    display: none;
+  }
+
+  .onestop-left {
+    display: none;
+  }
+  .onestop-right div {
+    display: none;
+  }
+  .page2-bottom {
+    grid-template-columns: 1fr !important;
+  }
+  .whychoose-right {
+    margin-left: 30px;
+  }
+  .a-perfectp {
+    width: 300px !important;
+    margin-left: 80px !important;
+    margin-top: 40px !important;
+  }
+  .cards {
+    flex-direction: column !important;
+    margin-top: 0 !important;
+  }
+  .basic {
+    padding-right: 140px !important;
+    margin-left: 0px;
+    margin-bottom: 150px;
+  }
+  .professional {
+    padding-right: 160px !important;
+    margin-left: 0px;
+    margin-bottom: 70px !important;
+  }
+  .teams {
+    padding-right: 200px !important;
+    margin-left: 0px;
+    margin-bottom: 150px;
+  }
+}
 /* Illustration */
 .illustration {
   margin-top: 40px;
